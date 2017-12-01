@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'SQC - Sistema de Qualquer Coisa'
-  ClientHeight = 582
-  ClientWidth = 949
+  ClientHeight = 562
+  ClientWidth = 948
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -18,17 +18,18 @@ object Form1: TForm1
   TextHeight = 13
   object StatusBar1: TStatusBar
     Left = 0
-    Top = 563
-    Width = 949
+    Top = 543
+    Width = 948
     Height = 19
     Panels = <>
+    ExplicitWidth = 949
   end
   object Panel1: TPanel
     AlignWithMargins = True
     Left = 3
     Top = 3
     Width = 542
-    Height = 557
+    Height = 537
     Align = alLeft
     BevelInner = bvLowered
     Caption = 'Panel1'
@@ -37,7 +38,7 @@ object Form1: TForm1
     object Panel2: TPanel
       AlignWithMargins = True
       Left = 5
-      Top = 436
+      Top = 416
       Width = 532
       Height = 116
       Align = alBottom
@@ -87,7 +88,7 @@ object Form1: TForm1
       Left = 5
       Top = 87
       Width = 532
-      Height = 343
+      Height = 323
       Align = alClient
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
@@ -118,8 +119,8 @@ object Form1: TForm1
     end
   end
   object MainMenu1: TMainMenu
-    Left = 888
-    Top = 40
+    Left = 576
+    Top = 16
     object Financeiro1: TMenuItem
       Caption = '&Financeiro'
     end
